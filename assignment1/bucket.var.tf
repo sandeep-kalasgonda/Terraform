@@ -1,7 +1,5 @@
-# bucket_var.tf
-
 variable "s3_bucket_names" {
-  description = "Provide the list of buckets to be created"
   type        = list(string)
-  default     = ["phoenix-proj-5534", "phoenix-proj-5634", "phoenix-proj-5734"]
+  description = "List of S3 bucket names"
+  default     = ["my-bucket-1", "my-bucket-2", "my-bucket-3"] # Change as needed
 }
