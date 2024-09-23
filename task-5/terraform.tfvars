@@ -1,0 +1,8 @@
+ami             = "ami-0ebfd941bbafe70c6"
+instance_type   = "t2.micro"
+subnet_id       = "subnet-0535524c5be140645"
+vpc_id          = "vpc-002f602664760ecbc"
+tag_ec2_instance_name = "my-ec2-instance"
+tag_security_group_name = "my-security-group"
+tag_env         = "dev"
+tag_project     = "my-project"
