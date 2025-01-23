@@ -5,7 +5,7 @@ provider "aws" {
 
 # Resource block to create an EC2 instance
 resource "aws_instance" "example" {
-  ami           = "ami-0c02fb55956c7d316" # Amazon Linux 2 AMI ID (replace with your region's AMI)
+  ami           = "ami-0d2614eafc1b0e4d2" # Amazon Linux 2 AMI ID (replace with your region's AMI)
   instance_type = "t2.micro"              # Instance type
 
   # Tags for the instance
